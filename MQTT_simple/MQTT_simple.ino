@@ -11,7 +11,7 @@ const char* password = "12345678";
 const char* mqtt_server = "m6.wqtt.ru";
 const int mqtt_port = 19940;
 const char* mqtt_user = "u_KXTXIO";
-const char* mqtt_password = "";
+const char* mqtt_password = "FJnWhAFR";
 
 // =======================
 // MQTT топики WQTT
@@ -197,17 +197,6 @@ void setup_wifi() {
   Serial.println("Wi-Fi connected");
   Serial.print("IP: ");
   Serial.println(WiFi.localIP());
-
-  Serial.print("Gateway: ");
-  Serial.println(WiFi.gatewayIP());
-
-  Serial.print("DNS: ");
-  Serial.println(WiFi.dnsIP());
-
-  Serial.print("RSSI: ");
-  Serial.println(WiFi.RSSI());
-
-  Serial.println("======================");
 }
 
 // =======================
